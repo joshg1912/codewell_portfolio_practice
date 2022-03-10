@@ -5,22 +5,17 @@
         <style>
             body {
                 background-color: black;
+                margin: 2%;
+                
                 
             }
 
             .nav {
                 color:white;
+                /*
                 padding: 20px;
                 margin-left: 10px;
-            }
-
-            .hero {
-                padding-top: 5%;
-                padding-left: 5%;
-            }
-
-            .heading {
-                width: 50%;
+                */
             }
 
             .bigger-text {
@@ -30,9 +25,17 @@
             p {
                 color:rgba(255, 254, 254, 0.685);
             }
+
+            .spense, .yelp-camp {
+                color:white;
+                text-decoration: none;
+            }
+           
+            
         </style>
     </head>
     <body>
+        <div class="container">
         <div class="row nav">
             <div class="col-4">Josh Garcia</div>
             <div class="col-1">Articles</div>
@@ -41,24 +44,36 @@
             <div class="col">About</div>
             <div class="col-2"><button class="btn btn-warning">Get in touch</button></div>
         </div>
-        <div class="row hero">
-            <div class="col-4">
+
+        <div class="row hero pt-5">
+            <div class="col-6">
             <h1 class="bigger-text" style="color:white;">Helping companies build better, scalable software.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis labore a accusantium qui fuga dolores aliquam modi, quibusdam nam vitae amet perspiciatis illum saepe iusto exercitationem assumenda placeat minus esse.</p>
             </div>
-
+            </div>
+            
             <div class="row pt-5">
                 <div class="col"><img src="/Assets/Logos/JP Morgan.svg"></div>
                 <div class="col"><img src="/Assets/Logos/Samsung.svg"></div>
-                <div class="col"><img src="/Assets/Logos/Tinder.svg" alt=""></div>
+                <div class="col"><img src="/Assets/Logos/Tinder.svg"></div>
                 <div class="col"><img src="/Assets/Logos/Verizon.svg"></div>
                 <div class="col"><img src="/Assets/Logos/Visa.svg"></div>
                 <div class="col"><img src="/Assets/Logos/Walmart.svg"></div>
             </div>
-    
-        <div class="row pt-5">
-            <div class="col"><img src="/Assets/Spense.png"></div>
-            <div class="col"><img src="/Assets/YelpCamp.png"></div>
-        </div>
+
+            <div class="row pt-5">
+                <div class="col">
+                    <img src="/Assets/Spense.png">
+                    <h2><a href="spense.com" class="spense">Spense.com &#8594;</a></h2>
+                </div>
+                <div class="yelp-camp col">
+                    <img src="/Assets/YelpCamp.png">
+                    <h2><a href="yelpcamp.com" class="yelp-camp">YelpCamp.com &#8594;</a></h2>
+                </div>
+            </div>
+            </div>
+         
+
+           
     </body>
 </html>
